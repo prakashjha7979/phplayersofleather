@@ -65,8 +65,8 @@ if($str!=''){
 												<div class="fr__product__inner">
 													<h4><a href="product-details.html"><?php echo $list['name']?></a></h4>
 													<ul class="fr__pro__prize">
-														<li class="old__prize"><?php echo $list['mrp']?></li>
-														<li><?php echo $list['price']?></li>
+														<li class="old__prize">MRP ₹&nbsp;<?php echo $list['mrp']?></li>
+														<li>₹&nbsp;<?php echo $list['price']?></li>
 													</ul>
 												</div>
 											</div>

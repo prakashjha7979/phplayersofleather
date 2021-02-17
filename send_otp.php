@@ -1,4 +1,10 @@
 <?php
+
+// echo '<pre>';
+// session_start();
+// print_r($_SESSION);
+// die();
+
 require('connection.inc.php');
 require('functions.inc.php');
 

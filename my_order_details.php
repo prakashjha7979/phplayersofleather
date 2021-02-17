@@ -57,15 +57,15 @@ $order_id=get_safe_value($con,$_GET['id']);
 												<td class="product-name"><?php echo $row['name']?></td>
                                                 <td class="product-name"> <img src="<?php echo PRODUCT_IMAGE_SITE_PATH.$row['image']?>"></td>
 												<td class="product-name"><?php echo $row['qty']?></td>
-												<td class="product-name"><?php echo $row['price']?></td>
-												<td class="product-name"><?php echo $row['qty']*$row['price']?></td>
+												<td class="product-name">₹&nbsp;<?php echo $row['price']?></td>
+												<td class="product-name">₹&nbsp;<?php echo $row['qty']*$row['price']?></td>
                                                 
                                             </tr>
                                             <?php } ?>
 											<tr>
 												<td colspan="3"></td>
 												<td class="product-name">Total Price</td>
-												<td class="product-name"><?php echo $total_price?></td>
+												<td class="product-name">₹&nbsp;<?php echo $total_price?></td>
                                                 
                                             </tr>
                                         </tbody>

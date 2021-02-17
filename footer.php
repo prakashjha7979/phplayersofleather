@@ -39,8 +39,8 @@
                             <ul class="ft__list">
                                 <li><a href="#">About us</a></li>
                                 <li><a href="#">Delivery Information</a></li>
-                                <li><a href="#">Privacy & Policy</a></li>
-                                <li><a href="#">Terms & Condition</a></li>
+                                <li><a href="privacy.php">Privacy & Policy</a></li>
+                                <li><a href="terms.php">Terms & Condition</a></li>
                                 <li><a href="#">Manufactures</a></li>
                             </ul>
                         </div>
@@ -54,7 +54,7 @@
                         <div class="ft__inner">
                             <ul class="ft__list">
                                 <li><a href="#">My Account</a></li>
-                                <li><a href="cart.html">My Cart</a></li>
+                                <li><a href="#">My Cart</a></li>
                                 <li><a href="#">Login</a></li>
                                 <li><a href="#">Wishlist</a></li>
                                 <li><a href="#">Checkout</a></li>
@@ -70,7 +70,7 @@
                         <div class="ft__inner">
                             <ul class="ft__list">
                                 <li><a href="#">My Account</a></li>
-                                <li><a href="cart.html">My Cart</a></li>
+                                <li><a href="#">My Cart</a></li>
                                 <li><a href="#">Login</a></li>
                                 <li><a href="#">Wishlist</a></li>
                                 <li><a href="#">Checkout</a></li>
